@@ -1,0 +1,101 @@
+
+* {
+    font-family: Helvetica;
+    color: rgb(52, 52, 52);
+    text-align: center;
+
+    /*reset of browser's default values*/
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 22px;
+}
+
+/* header section */
+
+header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid darkgrey;
+    color: white;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+header a { 
+    margin: 10px;
+    text-decoration: none;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+/*main content*/
+
+main {
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 66px;
+}
+
+
+/*Featured tea section*/
+
+#featured_tea {
+    width: 75%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.container-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;    
+}
+
+.container-head h2 {
+    margin: 2% 0;
+}
+
+.figure-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.figure-container div {
+    width: 300px;
+    height: 67%;
+    overflow: hidden;
+    margin: 1%;
+}
+
+.figure-container div img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    margin-top: 3.334%;
+}
+.product {
+    border-radius: 10px;
+}

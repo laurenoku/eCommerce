@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link href="ecommerce1.css" rel="stylesheet">
+</head>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#featured_teas">Featured</a>
+    <a href="all_teas">All Teas</a>
+    <input type="text" placeholder="Search..">
+    <div class="dropdown">
+      <button class="dropbtn">Cart</button>
+      <div class="dropdown-content">
+          <div class="cart-item">Item 1</div>
+          <div class="cart-item">Item 2</div>
+          <div class="cart-item">Item 3</div>
+          <!-- Add more cart items here -->
+      </div>
+    </div>
+</nav>
+<div class="figure-container"> 
+    <h1>Featured Teas</h1>
+    <p>Click 'Empty Cart' button to remove session cookies from browser.</p>
+    <div id="alerts"></div>
+    <div class="productcont"></div>
+ 
+         <div class="cart-container">
+           <h2>Cart</h2>
+           <table>
+             <thead>
+               <tr>
+               <th><strong>Product</strong></th>
+               <th><strong>Price</strong></th>
+             </tr>
+             </thead>
+             <tbody id="carttable">
+             </tbody>
+           </table>
+           <hr>
+           <table id="carttotals">
+             <tr>
+               <td><strong>Items</strong></td>
+               <td><strong>Total</strong></td>
+             </tr>
+             <tr>
+               <td>x <span id="itemsquantity">0</span></td>
+               <td>$<span id="total">0</span></td>
+             </tr></table>
+ 
+             
+           <div class="cart-buttons">  
+             <button id="emptycart">Empty Cart</button>
+             <button id="checkout">Checkout</button>
+           </div>
+         </div>
+ </div>
+
+
+
+
+    
+     
+    
+</body>
+<script src="ecommerce1.js"></script>
+</html>
